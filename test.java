@@ -16,7 +16,7 @@ public class test {
  
                 WebDriver driver = new ChromeDriver(chromeOptions);
  
-                driver.get("http://192.168.56.103:32768/content/about-us.php");
+                driver.get("http://192.168.56.103:32771/content/about-us.php");
  
                 Thread.sleep(1000);
  		String test = driver.findElement(By.id("PID-ab2-pg")).getText();
